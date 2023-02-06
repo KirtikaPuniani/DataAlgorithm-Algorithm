@@ -1,3 +1,9 @@
+/*
+This is the case of removing Non Dominence.
+In this case there are 3 for loops in code; in nested form and one outside nested for loop and thus we get 2 complexity O(n^2) and O(n) but in larger 
+cases O(n) will become negligible therefore only O(n^2) complexity is written
+*/
+
 package misc.big_o;
 
 public class ONsquarecase2
