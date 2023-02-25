@@ -35,35 +35,49 @@ public class LinkedList5
 		}
 	}
 	
-	public void getHead() {
-        if (head == null) {
+	public void getHead() 
+	{
+        if (head == null)
+	{
             System.out.println("Head: null");
-        } else {
+        } 
+	else 
+	{
             System.out.println("Head: " + head.value);
         }
     }
 
-    public void getTail() {
-        if (head == null) {
+    public void getTail() 
+    {
+        if (head == null) 
+	{
             System.out.println("Tail: null");
-        } else {
+        } 
+	else 
+	{
             System.out.println("Tail: " + tail.value);
         }
     }
 
-    public void getLength() {
+    public void getLength() 
+    {
         System.out.println("Length: " + length);
     }
 
-    public void append(int value) {
+    public void append(int value) 
+    {
         Node newNode = new Node(value);
-        if (length == 0) {
+        if (length == 0)
+	{
             head = newNode;
             tail = newNode;
-        } else {
+        } 
+	else 
+	{
             tail.next = newNode;
             tail = newNode;
         }
+	    
         length++;
     }
 
