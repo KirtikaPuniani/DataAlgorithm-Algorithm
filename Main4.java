@@ -11,5 +11,10 @@ public class Main4
 		System.out.println(myLinkedList.removeLast()); //returns 2 nodes
 		System.out.println(myLinkedList.removeLast()); //returns 1 nodes
 		System.out.println(myLinkedList.removeLast()); //returns 0 nodes
+		
+		
+		//System.out.println(myLinkedList.removeLast().value);
+		//System.out.println(myLinkedList.removeLast().value);
+		//System.out.println(myLinkedList.removeLast().value);
 	}
 }
