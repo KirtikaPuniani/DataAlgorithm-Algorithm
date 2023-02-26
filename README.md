@@ -1,2 +1,2 @@
-# DataAlgorithm-Algorithm in JAVA
+# DataStructure-Algorithm in JAVA
 My DSA learning journey
